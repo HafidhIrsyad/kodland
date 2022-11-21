@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    .definition {
+        margin: 50px;
+        .title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+
+        }
+        .deskripsi {
+            font-size: 1rem;
+            font-weight: 200;
+            text-align: center;
+        }
+    }
+
+    .feature {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: #CBF3F0;
+        
+        .title {
+            padding-top: 70px;
+            padding-bottom: 30px;           
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+
+        }
+        .list-feature {
+            display: flex;
+            justify-content: space-around;
+
+            .feature-name{
+                margin-bottom: 80px;      
+                
+                img{
+                    padding: 5px;
+                    width: 150px;
+                }
+
+                .name {
+                    text-align: center;
+                }
+
+                button {
+                    margin-left: 30px;
+                    cursor: pointer;
+                    background-color: #FFBF69;
+                    margin-top: 10px;
+                    color: #000;
+                    border: none;
+                    padding: 10px 27px;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+
+    .type {
+        background-image: url("../../images/bg-grid.png");
+        background-color: #cccccc;
+        height: 400px;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        justify-content: center;
+
+        .div {
+            margin-top: 40px;
+            .type-title {
+                color: #000;
+                font-size: 2rem;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+        
+            .type-description {
+                font-size: 0.8rem;
+                color: #000;
+                font-weight: lighter;
+            }
+        }
+
+        
+
+        img {
+            margin-left: 50px;
+            padding: 5px;
+            height: 300px;
+            width: 300px;
+        }
+    }
+}
